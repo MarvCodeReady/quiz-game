@@ -17,3 +17,38 @@ if answer == "california":
     print("You are Correct!")
 else: 
     print("That is incorrect!")
+
+#Second question
+answer = input("What continent is Brazil located in? ")
+if answer == "south america":
+    print("You are Correct!")
+else: 
+    print("That is incorrect!")
+
+#Third question
+answer = input("Beijing is the capitol of what country? ")
+if answer == "china":
+    print("You are Correct!")
+else: 
+    print("That is incorrect!")
+
+#Fourth question
+answer = input("Paris is located in what country? ")
+if answer == "france":
+    print("You are Correct!")
+else: 
+    print("That is incorrect!")
+
+#Fifth question
+answer = input("Who was the first president of the United States? ")
+if answer == "george washington":
+    print("You are Correct!")
+else: 
+    print("That is incorrect!")
+
+#Sixth question
+answer = input("Who was the second president of the United States? ")
+if answer == "john adams":
+    print("You are Correct!")
+else: 
+    print("That is incorrect!")
