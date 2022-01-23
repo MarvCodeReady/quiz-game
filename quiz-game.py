@@ -6,3 +6,12 @@ playing = input("Would you like to play? ")
 #use if statement to quit game if player condition is not equal to yes
 if playing != "yes":
     quit()
+
+#Add string if user continues game
+print("Alright then lets begin")
+
+#create variable to ask user question and recieve input
+answer = input("What state is San Francisco located in? ")
+#Added if statement to confirm if users answer is correct
+if answer == "california":
+    print("You are Correct!")
