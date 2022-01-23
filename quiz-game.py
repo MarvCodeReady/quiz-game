@@ -62,5 +62,9 @@ if answer.lower() == "john adams":
 else: 
     print("That is incorrect!")
     
-#use str() to turn score variable into a string, it is originally an integer
+#Use str() to turn score variable into a string, it is originally an integer
 print("you recieved a score of " + str(score))
+#Return score percetnage, use round to round the score to nearest integer
+print("You got a " + str(round((score / 6) * 100)) + "%")
+
+print("Thanks for playing")
