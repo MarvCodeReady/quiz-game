@@ -12,6 +12,8 @@ print("Alright then lets begin")
 
 #create variable to ask user question and recieve input
 answer = input("What state is San Francisco located in? ")
-#Added if statement to confirm if users answer is correct
+#Added if else statement to confirm if users answer is correct or incorrect
 if answer == "california":
     print("You are Correct!")
+else: 
+    print("That is incorrect!")
